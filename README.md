@@ -2,7 +2,7 @@
 
 #### By _**Noah Atkinson**_
 
-#### _Description_
+#### _Program that lets users catalog and organize their music_
 
 ## Technologies Used
 
@@ -13,20 +13,21 @@
 
 ## Description
 
-_This application will prompt the user to enter if they'd like to add Bread or Pastry to Cart then how many to add to Cart. It will then give the prompt an option to add more as a yes or no._
-_If the user is done adding items to the cart, the program will display their cart and a Cart Total._
+_This application will prompt the user to enter records they have, and the artist that made that record._
+_It will then store the record in a list that you can click on to see the name of the artist._
+_User can navigate between pages to see the whole list of records, and the artists_
 
 ## Setup/Installation Requirements
 
 * _Install .Net 6 SDK:_
 * [OS X and Windows Instructions](https://www.learnhowtoprogram.com/c-and-net/getting-started-with-c/installing-c-and-net)
 * _Clone this repo to a local directory_
-* _Using Terminal on OS X or PowerShell on Windows navigate to the top directory that this repo was cloned to (YourPath/PierresBakery.Solution):_ 
+* _Using Terminal on OS X or PowerShell on Windows navigate to the top directory that this repo was cloned to (YourPath/Music-Organizer.Solutions):_ 
 * _Confirm all business logic tests pass with MSTest by running commands (not including the dollar symbol):_
-* _$ dotnet restore ./PierresBakery.Tests_
-* _$ dotnet test ./PierresBakery.Tests_
+* _$ dotnet restore ./MusicOrganizer.Tests_
+* _$ dotnet test ./MusicOrganizer.Tests_
 * _Then run the program with command :_
-* _$ dotnet run --project PierresBakery_
+* _$ dotnet run --project MusicOrganizer_
 
 ## Known Bugs
 
