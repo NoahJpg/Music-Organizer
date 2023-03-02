@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Add a record</h1>
+<p>Add an artist</p>
+
+<form action="/records" method="post">
+  <label for="recordName">Record Name</label>
+  <input id="recordName" name="recordName" type="text">
+  <button type="submit">Add</button>
+</form>
+
+<p><a href="/">Back Home</a></p>
+<p><a href="/records">Back to record list</a></p>
